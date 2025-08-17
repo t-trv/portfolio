@@ -1,104 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/background.css">
-    <link rel="stylesheet" href="./css/infor.css">
+    <link rel="stylesheet" href="./css/main.css">
     
     <title>Portfolio | trvv</title>
 </head>
 <body>
-    <div class="app">
-        <div class="background">
-            <div class="background__video">
-                <video width="" height="" autoplay muted loop>
-                    <source src="./assets/bg__video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            
-            <div class="background__music">
-                <audio autoplay loop>
-                        <source src="./assets/bg__music.m4a" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                </audio>
-            </div>
-        </div>
+    <video class="video--bg" width="" height="" autoplay muted loop>
+        <source src="./assets/YIPYxTxKO2RCU5M_Nier Automata Sword_2_prob4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- 
+        Music gonna be here
+    -->
 
-        <div class="infor">
-            <div class="infor__content">
-                <div class="infor__header">
-                    <div class="infor__left">
-                        <div class="avt">
-                            <img alt="avatar" class="avt__img" src="./assets/avt.jpg">
-                            <img alt="decor" class="avt__decor" src="./assets/avt__decor.png">
+
+    <div class="container">
+        <div class="content">
+            <!-- Content layer 1 (name and desc) -->
+            <div class="section">
+                <div class="avt">
+                    <div class="avt__decor"></div>
+                    <img src="./assets/avt_1.jpg" class="avt__img"></img>
+                </div>
+                <div class="infor">
+                    <p class="infor__name">Sieu Nhan Wow</p>
+                    <p class="infor__desc">Join my discord !</p>
+                </div>
+                <div class="icons">
+                    <!-- Icons gonna be here -->
+                    <!-- <img src="./assets/Shadow_Splinter.png" class="avt__img"></img> -->
+                </div>
+            </div>
+
+            <!-- Content layer 2 (two cards) -->
+            <div class="section">
+                <div class="card">
+                    <div class="card__wrapper">
+                        <div class="card__decor"></div>
+                        <img src="./assets/avt.jpg" class="card__img card__img--round"></img>
+                    </div>
+                    <div class="card__content">
+                        <p class="card__title">Tran Van </p>
+                        <p class="card__desc">Playing Minecraft..</p>
+                        <p class="card__desc">anh la dong xuan ha thu</p>
+                    </div>
+                    <img src="./assets/avatarHead3.png" class="card__img"></img>
+                </div>
+                <div class="card">
+                    <img src="./assets/DevilMC_Logo-removebg-preview.png" class="card__img"></img>
+                    <div class="card__content">
+                        <p class="card__title">DevilMC</p>
+                        <p class="card__desc">
+                            <span class="--online">22 Online</span> | 106 Members
+                        </p>
+                        <a href="#" class="card__btn">Join</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- This is a decor lines, just ignore it haha -->
+            <div style="justify-content: center;" class="section">
+                ✧˖°── .✦────☼༺☆༻☾────✦.── °˖✧
+            </div>
+
+            <!-- Content layer 3 (social links) -->
+            <div class="section">
+                <ul class="socials">
+                    <li class="socials__item">
+                        <a onclick="return false;" href="" class="socials__link">
+                            <img src="./assets/0d349589-8944-45bf-9a3b-ab78f7d1fed4.webp" alt="" class="socials__img">
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a href="" class="socials__link">youtube</a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a href="" class="socials__link">instagram</a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a href="" class="socials__link">facebook</a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a onclick="return false;" href="" class="socials__link">
+                            <img src="./assets/0f9e5c39-c643-4ddf-bcd9-5cdf52fb1d27.webp" alt="" class="socials__img">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Content layer 4 (address and views) -->
+            <div class="section">
+                <div class="bottom">
+                    <div class="bottom__item">
+                        <div class="bottom__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 9a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5a5 5 0 0 1 5-5a5 5 0 0 1 5 5a5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"></path></svg>
+                        </div>
+                        <div class="bottom__desc">226</div>
+                    </div>
+                    |
+                    <div class="bottom__item">
+                        <div class="bottom__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="4 2 16 20"><path fill="currentColor" d="M12 12q.825 0 1.413-.587T14 10t-.587-1.412T12 8t-1.412.588T10 10t.588 1.413T12 12m0 10q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2t5.588 2.225T20 10.2q0 2.5-1.987 5.438T12 22"></path></svg>
+                        </div>
+                        <div class="bottom__desc">Hai phong, Vietnam</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content layer 5 -->
+            <div class="section">
+                <div class="music">
+                    <div class="music__img"></div>
+                    <div class="music__infor">
+                        <div class="music__title">Mat troi cua em</div>
+                        <div class="music__progress">
+                            <div class="music__time">0:00 ---------------------------- 3:49</div>
+                            <div class="music__controls">
+                                <span class="music__icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M7 6c.55 0 1 .45 1 1v10c0 .55-.45 1-1 1s-1-.45-1-1V7c0-.55.45-1 1-1m3.66 6.82l5.77 4.07c.66.47 1.58-.01 1.58-.82V7.93c0-.81-.91-1.28-1.58-.82l-5.77 4.07a1 1 0 0 0 0 1.64"></path></svg></span>
+                                
+                                <span class="music__icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M8 19c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2s-2 .9-2 2v10c0 1.1.9 2 2 2m6-12v10c0 1.1.9 2 2 2s2-.9 2-2V7c0-1.1-.9-2-2-2s-2 .9-2 2"></path></svg></span>
+
+                                <span class="music__icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m7.58 16.89l5.77-4.07c.56-.4.56-1.24 0-1.63L7.58 7.11C6.91 6.65 6 7.12 6 7.93v8.14c0 .81.91 1.28 1.58.82M16 7v10c0 .55.45 1 1 1s1-.45 1-1V7c0-.55-.45-1-1-1s-1 .45-1 1"></path></svg></span>
+                            </div>
                         </div>
                     </div>
-
                     
-                    <div class="infor__middle">
-                        <div class="infor__name-wrapper">
-                            <div class="infor__name">Tran Van Van</div>
-                            <div class="infor__icon">
-                                icon_here
-                            </div>
-                        </div>
-                        <p class="infor__desc">Minecraft player | Valo player | Youtuber</p>
-                    </div>
-                </div>
-
-                <div style="display: flex; gap: 10px;">
-                    <div class="discord">
-                        <img src="./assets/avt.jpg" alt="avt" class="discord__avt">
-                        <div class="discord__content">
-                            <div class="discord__name">trvv</div>
-                            <div class="discord__tag">anh la dong xuan ha thu</div>
-                        </div>
-                    </div>
-
-                    <div class="discord">
-                        <img src="./assets/DevilMC_Logo-removebg-preview.png" alt="avt" class="discord__avt">
-                        <div class="discord__content">
-                            <div class="discord__name">DevilMC | A Minecraft..</div>
-                            <div class="discord__tag">
-                                <span"><svg style="color: #23a559;" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M8 4a4 4 0 1 1 0 8a4 4 0 0 1 0-8"></path></svg>22 Online</span>
-                                <span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M8 4a4 4 0 1 1 0 8a4 4 0 0 1 0-8"></path></svg>106 Mems</span>
-                            </div>
-                            <a class="discord__link" target="_blank" href="https://discord.gg/3DtuShbpkA">Join</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="socials">
-                    <a style="cursor: default;" class="socials__item">
-                        <img src="./assets/0d349589-8944-45bf-9a3b-ab78f7d1fed4.webp" alt="Social item">
-                    </a>
-
-                    <a class="socials__item">
-                        <span class="socials__text" >youtube</span>
-                        <span>•</span>
-                    </a>
-
-                    <a class="socials__item">
-                        <span class="socials__text" >instagram</span>
-                        <span>•</span>
-                    </a>
-
-                    <a class="socials__item">
-                        <span class="socials__text" >tiktok</span>
-                    </a>
-
-                    <a style="cursor: default;" class="socials__item">
-                        <img src="./assets/0f9e5c39-c643-4ddf-bcd9-5cdf52fb1d27.webp" alt="Social item">
-                    </a>
                 </div>
             </div>
         </div>
-        
     </div>
 </body>
 </html>

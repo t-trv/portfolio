@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	font-family: 'Minecraftia', sans-serif !important;
 	vertical-align: baseline;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -61,16 +62,3 @@ a {
 	color: #fff;
 }
 
-/* SOCIALS ---------------------------- */
-.socials {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 8px;
-	margin-top: 24px;
-}
-
-.socials img {
-	height: 40px;
-	width: 40px;
-}
