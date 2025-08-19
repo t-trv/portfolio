@@ -27,7 +27,7 @@ function loadTrack(index) {
     sound = new Howl({
         src: [track.src],
         html5: true,
-        volume: 0.5,
+        volume: 1,
         onplay: function() {
             playPauseBtn.classList.add('music__play-pause--playing');
             updateProgress();
@@ -64,7 +64,7 @@ musicNext.onclick = function() {
     nextTrack();
 }
 // Initial load of the first track
-loadTrack(currentTrackIndex);
+// loadTrack(currentTrackIndex);
 
 // Progress bar ==============================================================
 const progressBg = document.querySelector('.music__progress-bg');
@@ -90,6 +90,16 @@ function updateProgress() {
     step();
 }
 
+// Loading handler ============================================================
+function loadingHandler() {
+    const loading = document.querySelector('.loading')
+    loadTrack(currentTrackIndex);
+    loading.classList.add('loading--hidden');
+    loading.addEventListener('transitionend', function handler() {
+        loading.remove(); // Remove from DOM
+        loading.removeEventListener('transitionend', handler);
+    });
+}
 
 
 
