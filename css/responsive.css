@@ -1,0 +1,31 @@
+@media (max-width: 768px){
+  .section {
+    flex-direction: column;
+  }
+
+  .infor__name {
+    font-size: 24px;
+  }
+
+  .infor__wrapper {
+    text-align: center;
+  }
+
+  .infor__desc {
+    font-size: 12.5px;
+  }
+
+  .socials__link {
+    font-size: 12.5px;
+  }
+
+  .socials__img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .music__img {
+    width: 70px;
+    height: 70px;
+  }
+}
