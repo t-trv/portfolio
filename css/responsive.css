@@ -77,4 +77,13 @@
     .music__controls {
         display: none;
     }
+
+    .decor-line {
+        display: none;
+    }
+
+    .decor-line--mobile {
+        display: block!important;
+        text-align: center;
+    }
 }
