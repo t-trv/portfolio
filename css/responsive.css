@@ -1,31 +1,80 @@
 @media (max-width: 768px){
-  .section {
-    flex-direction: column;
-  }
+    .avt {
+        width: 80px;
+        height: 80px;
+    }
 
-  .infor__name {
-    font-size: 24px;
-  }
+    .avt__decor {
+        width: 94px;
+        height: 94px;
+        top: -6px;
+        left: -7px;
+    }
 
-  .infor__wrapper {
-    text-align: center;
-  }
+    .section {
+        margin: 4px 0;
+        flex-direction: column;
+    }
 
-  .infor__desc {
-    font-size: 12.5px;
-  }
+    .card__img {
+        width: 50px;
+        height: 50px;
+    }
 
-  .socials__link {
-    font-size: 12.5px;
-  }
+    .card__decor {
+        width: 60px;
+        height: 60px;
+        top: -5px;
+        left: -6px;
+    }
 
-  .socials__img {
-    width: 28px;
-    height: 28px;
-  }
+    .card__title {
+        font-size: 12.5px;
+    }
 
-  .music__img {
-    width: 70px;
-    height: 70px;
-  }
+    .card__desc {
+        font-size: 10px;
+    }
+
+    .infor__name {
+        font-size: 20px;
+    }
+
+    .infor__wrapper {
+        text-align: center;
+    }
+
+    .infor__desc {
+        font-size: 12.5px;
+    }
+
+    .socials__link {
+        font-size: 10px;
+    }
+
+    .socials__img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .bottom__desc {
+        font-size: 10px;
+    }
+
+    .music__img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .music__title {
+        font-size: 12.5px;
+    }
+
+    .music__time {
+        font-size: 10px;
+    }
+
+    .music__controls {
+        display: none;
+    }
 }
